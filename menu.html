@@ -1,0 +1,36 @@
+<!-- Menu Page -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Menu</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div>
+  <div title="container" class="container">
+    <div title="header">
+      <h1 class="h1">Battleships</h1>
+    </div>
+  </div>
+  <!-- Menu Container -->
+  <div title="menu" class="menu-container">
+    <div class=" single-container">
+      <!-- Play Button -->
+      <button class="menu" type="button"><a href="index.html"> SINGLE PLAYER</a></button>
+    </div>
+    <!-- GIF Area -->
+    <div class="  gif-container"> </div>
+  </div>
+  <div title="footer"> </div>
+</div>
+
+<section id="scripts">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js"> </script>
+<script>
+var menuSound = new buzz.sound("./sounds/MUS_MenuLoop1.wav",{loop:true});
+menuSound.play();
+</script>
+</section>
+</body>
+</html>

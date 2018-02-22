@@ -1,0 +1,195 @@
+body {
+      background-image:url('../images/sea.jpg');
+	  background-repeat: no-repeat;
+	  background-size: cover;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   justify-content: center;
+     align-items: center;
+     align-content: center;
+
+
+	font-family:verdana;
+  font-size:280%;
+  color:#c12506;
+  text-align:center;
+  width: 300px;
+	}
+.score-board {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+   justify-content: center;
+     align-items: center;
+     align-content: center;
+
+	border-style: solid;
+	width:400px;
+	height:300px;
+	margin-right:50px;
+	}
+
+
+.h1 {
+  font-family:verdana;
+  font-size:500%;
+  color:#c12506;
+  text-align:center;
+}
+
+.nav {
+	width:10%;
+	height:20%;
+	}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   justify-content: center;
+     align-items: center;
+     align-content: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+   justify-content: space-around;
+     align-items: center;
+     align-content: center;
+}
+
+.gif-container {
+  width:640px;
+  height: 480px;
+  border-style: solid;
+  background-image:url('../images/ship.gif');
+}
+
+.ship-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-style: solid;
+  width:400px;
+}
+
+.single-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-style: outset;
+  background-color: grey:
+}
+
+.ship-item {
+  order: 2;
+  height: 20%;
+}
+
+.menu {
+  font-family:verdana;
+  font-size:300%;
+  color:#c12506;
+  text-align:center;
+}
+
+.menu2 {
+  font-family:verdana;
+  font-size:200%;
+  color:#blue;
+  text-align:center;
+  width:150%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+
+.cell {
+      width:80px;
+      height:80px;
+      text-align: center;
+      font-weight: bold;
+      background-color: #d6d6d6;
+
+      background-size: cover;
+      border: 1px solid black;
+
+}
+
+.marker {
+  width:80px;
+  height:80px;
+}
+
+.miss-ship {
+    background-color: blue;
+}
+
+.hit-ship {
+    background-color: red;
+}
+
+.fill { background-color: blue; }
+
+
+
+#ship1 {
+  background-image:url('../images/ship1.jpg');
+}
+#ship1.defeat {
+  background-image:url('../images/sunk_ships/ship1.jpg');
+}
+
+#ship2 {
+  background-image:url('../images/ship2.jpg');
+}
+
+#ship2.defeat {
+  background-image:url('../images/sunk_ships/ship2.jpg');
+}
+
+#ship3 {
+  background-image:url('../images/ship3.jpg');
+}
+
+#ship3.defeat {
+  background-image:url('../images/sunk_ships/ship3.jpg');
+}
+
+#ship4 {
+  background-image:url('../images/ship4.jpg');
+}
+
+#ship4.defeat {
+  background-image:url('../images/sunk_ships/ship4.jpg');
+}
+
+#ship5 {
+  background-image:url('../images/ship5.jpg');
+}
+
+#ship5.defeat {
+  background-image:url('../images/sunk_ships/ship5.jpg');
+}
+
+.item {
+  order: 2;
+  height: 800px;
+}
+
+}

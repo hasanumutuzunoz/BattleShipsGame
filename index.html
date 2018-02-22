@@ -1,0 +1,54 @@
+<!-- Game Page -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Battleship Game</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div title="container" class="container">
+  <div>
+    <div title="header">
+      <h1 class="h1">Battleships</h1>
+    </div>
+    <!-- Navigation Buttons -->
+    <div title="nav" class="nav">
+      <button class="menu2" type="button"><a href="menu.html"> Main Menu</a></button>
+      <button class="menu2" type="button"><a href="index.html"> Restart the Game</a></button>
+    </div>
+  </div>
+  <!-- Game Container -->
+  <div title="game" class="game-container">
+
+    <div class="score-board">
+      <div class="score"><p><b>Score : </b></p><p id="score"></p></div>
+      <div class="score"><p><b>Missiles :</b></p><p id="missiles"></p></div>
+    </div>
+
+    <div class="item  ship-container">
+      <div id="ship1" class="ship-item"> Destroyer </div>
+      <div id="ship2" class="ship-item"> Voyager </div>
+      <div id="ship3" class="ship-item"> Queen </div>
+      <div id="ship4" class="ship-item"> The Essex </div>
+      <div id="ship5" class="ship-item"> Misaka </div>
+    </div>
+    <!-- Game Map -->
+    <div id="game-area">
+        <!-- grid will be generated -->
+    </div>
+
+  </div>
+
+  <div title="footer"> </div>
+
+</div>
+
+<section id="scripts">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js" defer> </script>
+  <script src="scripts/Ship.js" defer> </script>
+  <script src="scripts/App.js" defer> </script>
+</section>
+
+</body>
+</html>

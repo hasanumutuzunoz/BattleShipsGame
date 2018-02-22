@@ -1,3 +1,9 @@
+/*
+BattleShips Game
+@Copyright Hasan Umut Uzunoz
+@Author: Hasan Umut Uzunoz
+*/
+
 'use strict';
 //New ship object
 class Ship {

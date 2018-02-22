@@ -1,3 +1,9 @@
+/*
+BattleShips Game
+@Copyright Hasan Umut Uzunoz
+@Author: Hasan Umut Uzunoz
+*/
+
 'use strict';
 //Game map max row and column
 const MAX_ROWS= 10;
